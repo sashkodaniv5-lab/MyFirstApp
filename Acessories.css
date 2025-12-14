@@ -1,0 +1,22 @@
+.items-row {
+    display: flex;
+    gap: 60px;           /* space between items */
+    flex-wrap: wrap;     /* allows wrapping to next line if needed */
+    margin-bottom: 0px; /* space between rows */
+}
+
+/* Individual item box */
+.item-box {
+    width: 175px;
+}
+
+.item-box img {
+    width: 48px;
+    image-rendering: pixelated;
+    margin-bottom: 10px;
+}
+
+/* Optional: second row spacing */
+.second-row {
+    margin-left: 0;   /* align under first row */
+}
