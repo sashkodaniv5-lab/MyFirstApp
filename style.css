@@ -1,8 +1,9 @@
 .items-row {
     display: flex;
-    gap: 60px;           /* space between items */
-    flex-wrap: wrap;     /* allows wrapping to next line if needed */
-    margin-bottom: 0px; /* space between rows */
+    gap: 60px;          
+    flex-wrap: wrap;     
+    justify-content: center;
+    margin-bottom: 0px; 
 }
 
 /* Individual item box */
