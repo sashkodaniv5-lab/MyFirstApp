@@ -12,7 +12,6 @@ h1{
     margin-bottom: 10px;
 }
 
-/* Individual item box */
 .item-box {
     width: 175px;
 }
@@ -23,13 +22,13 @@ h1{
     margin-bottom: 10px;
 }
 
-/* Optional: second row spacing */
+
 .second-row {
-    margin-left: 0;   /* align under first row */
+    margin-left: 0;
 }
 
 .weapons-row {
-  margin-top: 60px; /* pushes weapons DOWN */
+  margin-top: 60px; 
 }
 
 body {
@@ -40,10 +39,35 @@ body {
 .top-image {
   display: flex;
   justify-content: center;
-  margin-top: 40px; /* adjust this value */
+  margin-top: 40px;
 }
 
 .top-image img {
   display: block;
   max-width: 100%;
 } 
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+/* FOOTER */
+.site-footer {
+    margin-top: auto;
+    width: 100%;
+
+    background-color: #111;
+    color: #ddd;
+    text-align: center;
+
+    padding: 14px 20px;
+    font-size: 14px;
+
+    box-sizing: border-box;
+}
