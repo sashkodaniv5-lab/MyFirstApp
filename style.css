@@ -28,6 +28,10 @@ h1{
     margin-left: 0;   /* align under first row */
 }
 
+.weapons-row {
+  margin-top: 60px; /* pushes weapons DOWN */
+}
+
 body {
   margin: 0;
   padding: 0;
